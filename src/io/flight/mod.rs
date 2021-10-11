@@ -1,7 +1,7 @@
 use std::sync::Arc;
 use std::convert::TryFrom;
 
-use arrow_format::flight::{FlightData, SchemaResult};
+use arrow_format::flight::data::{FlightData, SchemaResult};
 use arrow_format::ipc;
 
 use crate::{
